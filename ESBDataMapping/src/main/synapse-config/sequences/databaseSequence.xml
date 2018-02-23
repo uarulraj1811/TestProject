@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="databaseSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="full">
+        <property name="sequence" value="before-smooks"/>
+    </log>
+    <smooks config-key="smooks-local">
+        <input type="text"/>
+        <output type="xml"/>
+    </smooks>
+    <log level="full">
+        <property name="sequence" value="after-smooks"/>
+    </log>
+    <iterate expression="//csv-set/csv-record" xmlns:ns2="http://org.apache.synapse/xsd" xmlns:sec="http://secservice.samples.esb.wso2.org">
+        <target>
+            <sequence>
+                <log level="full">
+                    <property name="State" value="Iteration"/>
+                </log>
+                <dbreport>
+                    <connection>
+                        <pool>
+                            <password>mysql123</password>
+                            <driver>com.mysql.jdbc.Driver</driver>
+                            <url>jdbc:mysql://localhost:3306/sakila</url>
+                            <user>root</user>
+                        </pool>
+                    </connection>
+                    <statement>
+                        <sql><![CDATA[insert into info values (?, ?, ?)]]></sql>
+                        <parameter expression="//csv-record/name/text()" type="VARCHAR"/>
+                        <parameter expression="//csv-record/surname/text()" type="VARCHAR"/>
+                        <parameter expression="//csv-record/phone/text()" type="VARCHAR"/>
+                    </statement>
+                </dbreport>
+            </sequence>
+        </target>
+    </iterate>
+</sequence>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="VFSProxy" startOnLoad="true" transports="vfs" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <log level="custom">
+                <property name="sequence" value="Proxy"/>
+            </log>
+            <clone>
+                <target sequence="fileWriteSequence"/>
+                <target sequence="databaseSequence"/>
+            </clone>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+    <parameter name="transport.PollInterval">130</parameter>
+    <parameter name="transport.vfs.FileURI">file:///D:/SelfLearning/in/</parameter>
+    <parameter name="transport.vfs.ContentType">text/plain</parameter>
+    <parameter name="transport.vfs.ActionAfterProcess">MOVE</parameter>
+    <parameter name="transport.vfs.MoveAfterFailure">file:///D:/SelfLearning/failed/</parameter>
+    <parameter name="transport.vfs.ActionAfterFailure">MOVE</parameter>
+    <parameter name="transport.vfs.FileNamePattern">.*.txt</parameter>
+    <parameter name="transport.vfs.MoveAfterProcess">file:///D:/SelfLearning/processed/</parameter>
+</proxy>

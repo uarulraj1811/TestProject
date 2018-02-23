@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="main" xmlns="http://ws.apache.org/ns/synapse">
+    <in>
+        <log level="full"/>
+        <filter regex="http://localhost:9000.*" source="get-property('To')">
+            <then>
+                <send/>
+            </then>
+            <else/>
+        </filter>
+    </in>
+    <out>
+        <send/>
+    </out>
+</sequence>

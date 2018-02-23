@@ -1,0 +1,36 @@
+map_S_breakfast_menu_S_menu = function(){ 
+var outputmenu={};
+var MULTIPLY_9_0 = '';
+var ADD_11_0 = '';
+
+var count_i_food = 0;
+outputmenu =  {};
+outputmenu.item =  [];
+
+for(i_food in inputbreakfast_menu.food){
+MULTIPLY_9_0 = 1*inputbreakfast_menu.food[i_food].calories*1.13;
+ADD_11_0 = 0+MULTIPLY_9_0+ 6.75;
+outputmenu.item[count_i_food] =  {};
+outputmenu.item[count_i_food].name = inputbreakfast_menu.food[i_food].name.toString().toUpperCase();
+outputmenu.item[count_i_food].price = inputbreakfast_menu.food[i_food].price;
+outputmenu.item[count_i_food].calories = Math.round(ADD_11_0);
+outputmenu.item[count_i_food].orgin = inputbreakfast_menu.food[i_food].orgin;
+outputmenu.item[count_i_food].veg = inputbreakfast_menu.food[i_food].veg;
+outputmenu.item[count_i_food].description = inputbreakfast_menu.food[i_food].description;
+
+count_i_food++;
+}
+return outputmenu;
+};
+
+
+
+
+
+
+
+
+
+
+
+

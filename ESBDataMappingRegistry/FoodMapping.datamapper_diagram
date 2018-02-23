@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_PPrfAAexEeildIBkRytfnA" type="DataMapper" name="FoodMapping.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_PWyzoAexEeildIBkRytfnA" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_sVC2MAeyEeildIBkRytfnA" type="3002" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sVDdQQeyEeildIBkRytfnA" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_sVilcAeyEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_sVjMgAeyEeildIBkRytfnA" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_sVwn4AeyEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_sVxO8AeyEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_sV1gYAeyEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sV1gYQeyEeildIBkRytfnA" x="-11" y="-9"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_sV2HcAeyEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sV2HcQeyEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVwn4QeyEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sVx2AAeyEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_sVx2AgeyEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_fIv-kAezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fIv-kQezEeildIBkRytfnA" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fIwloAezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.1/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fIwloQezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVx2AQeyEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sVx2AweyEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_sVx2BQeyEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_fI03EAezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.2/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fI03EQezEeildIBkRytfnA" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fI03EgezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.2/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fI03EwezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.2"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVx2BAeyEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sVydEAeyEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_sVydEgeyEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_fI5IgAezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.3/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fI5IgQezEeildIBkRytfnA" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fI5IggezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.3/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fI5IgwezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.3"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVydEQeyEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sVydEweyEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_sVydFQeyEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_fI9Z8AezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.4/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fI9Z8QezEeildIBkRytfnA" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fI9Z8gezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.4/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fI9Z8wezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.4"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVydFAeyEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sVydFgeyEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_sVzEIAeyEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_fJBEUAezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.5/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJBEUQezEeildIBkRytfnA" x="-1" y="1"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fJBrYAezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.5/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJBrYQezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.5"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVydFweyEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sVzrMAeyEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVzrMQeyEeildIBkRytfnA" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sVzrMgeyEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVzrMweyEeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVilcQeyEeildIBkRytfnA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sVjMgQeyEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVjMggeyEeildIBkRytfnA" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sVjzkAeyEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVjzkQeyEeildIBkRytfnA"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sVDdQAeyEeildIBkRytfnA"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="FoodMapping.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PWyzoQexEeildIBkRytfnA" x="60" y="192" width="250" height="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PWzasAexEeildIBkRytfnA" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_ACYjgAezEeildIBkRytfnA" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ACYjggezEeildIBkRytfnA" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_ACiUgAezEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ACiUggezEeildIBkRytfnA" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_ACjioAezEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ACkJsAezEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_ACl-4AezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACl-4QezEeildIBkRytfnA" x="-5" y="4"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_ACl-4gezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACl-4wezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACjioQezEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ACkJsQezEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ACkJswezEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_fJF80AezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJF80QezEeildIBkRytfnA" x="-5" y="4"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fJF80gezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.1/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJF80wezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACkJsgezEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ACkJtAezEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ACkJtgezEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_fJKOQAezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.2/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJKOQQezEeildIBkRytfnA" x="-5" y="4"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fJKOQgezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.2/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJKOQwezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.2"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACkJtQezEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ACkJtwezEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ACkJuQezEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_fJPGwAezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.3/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJPGwQezEeildIBkRytfnA" x="-5" y="4"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fJPGwgezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.3/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJPGwwezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.3"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACkJuAezEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ACkJugezEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ACkJvAezEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_fJSxIAezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.4/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJSxIQezEeildIBkRytfnA" x="-5" y="4"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fJSxIgezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.4/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJSxIwezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.4"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACkJuwezEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ACkJvQezEeildIBkRytfnA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ACkJvwezEeildIBkRytfnA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_fJWbgAezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.5/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJWbgQezEeildIBkRytfnA" x="-5" y="4"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fJXCkAezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.5/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJXCkQezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@node.5"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACkJvgezEeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ACkJwAezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACkJwQezEeildIBkRytfnA" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ACkwwAezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACkwwQezEeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACiUgQezEeildIBkRytfnA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ACiUgwezEeildIBkRytfnA" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACiUhAezEeildIBkRytfnA" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ACiUhQezEeildIBkRytfnA" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACiUhgezEeildIBkRytfnA"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="FoodMapping.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ACYjgQezEeildIBkRytfnA"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="FoodMapping.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PWzasQexEeildIBkRytfnA" x="1200" y="180" width="250" height="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_l8yeMAezEeildIBkRytfnA" type="2011" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_l88PMAezEeildIBkRytfnA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_l8_5kAezEeildIBkRytfnA" type="3013" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_l9fBwAezEeildIBkRytfnA" type="3014" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_l9heAAezEeildIBkRytfnA" type="3015" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@operators.0/@basicContainer/@leftContainer/@leftConnectors.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l9heAQezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorLeftConnector" href="FoodMapping.datamapper#//@operators.0/@basicContainer/@leftContainer/@leftConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l9fBwQezEeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorLeftContainer" href="FoodMapping.datamapper#//@operators.0/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8_5kQezEeildIBkRytfnA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_l8_5kgezEeildIBkRytfnA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_l9oywAezEeildIBkRytfnA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_l9qn8AezEeildIBkRytfnA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l9qn8QezEeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="FoodMapping.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l9oywQezEeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="FoodMapping.datamapper#//@operators.0/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8_5kwezEeildIBkRytfnA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="FoodMapping.datamapper#//@operators.0/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l88PMQezEeildIBkRytfnA"/>
+    </children>
+    <element xmi:type="datamapper:UpperCase" href="FoodMapping.datamapper#//@operators.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8yeMQezEeildIBkRytfnA" x="432" y="96"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_JDKyEAe0EeildIBkRytfnA" type="2014" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_JDUjEAe0EeildIBkRytfnA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_JDW_UAe0EeildIBkRytfnA" type="3013" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_JDuywAe0EeildIBkRytfnA" type="3014" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_JDvZ0Ae0EeildIBkRytfnA" type="3015" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@operators.1/@basicContainer/@leftContainer/@leftConnectors.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JDvZ0Qe0EeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorLeftConnector" href="FoodMapping.datamapper#//@operators.1/@basicContainer/@leftContainer/@leftConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JDuywQe0EeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_JDydIAe0EeildIBkRytfnA" type="3014" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_JDzEMAe0EeildIBkRytfnA" type="3015" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@operators.1/@basicContainer/@leftContainer/@leftConnectors.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JDzEMQe0EeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorLeftConnector" href="FoodMapping.datamapper#//@operators.1/@basicContainer/@leftContainer/@leftConnectors.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JDydIQe0EeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorLeftContainer" href="FoodMapping.datamapper#//@operators.1/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JDW_UQe0EeildIBkRytfnA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_JDYNcAe0EeildIBkRytfnA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_JD4jwAe0EeildIBkRytfnA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_JD5K0Ae0EeildIBkRytfnA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JD5K0Qe0EeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="FoodMapping.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JD4jwQe0EeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="FoodMapping.datamapper#//@operators.1/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JDYNcQe0EeildIBkRytfnA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="FoodMapping.datamapper#//@operators.1/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JDUjEQe0EeildIBkRytfnA"/>
+    </children>
+    <element xmi:type="datamapper:Multiply" href="FoodMapping.datamapper#//@operators.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JDKyEQe0EeildIBkRytfnA" x="456" y="348"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_azziIAe0EeildIBkRytfnA" type="2008" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_az624Ae0EeildIBkRytfnA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_az8sEAe0EeildIBkRytfnA" type="3013" fontName="Segoe UI">
+        <element xmi:type="datamapper:OperatorLeftContainer" href="FoodMapping.datamapper#//@operators.2/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_az8sEQe0EeildIBkRytfnA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_az9TIAe0EeildIBkRytfnA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_a0SDQAe0EeildIBkRytfnA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_a0TRYAe0EeildIBkRytfnA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@operators.2/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a0TRYQe0EeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="FoodMapping.datamapper#//@operators.2/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a0SDQQe0EeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="FoodMapping.datamapper#//@operators.2/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_az9TIQe0EeildIBkRytfnA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="FoodMapping.datamapper#//@operators.2/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_az624Qe0EeildIBkRytfnA"/>
+    </children>
+    <element xmi:type="datamapper:Constant" href="FoodMapping.datamapper#//@operators.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_az0JMAe0EeildIBkRytfnA" x="108" y="384"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_bLlI8Ae0EeildIBkRytfnA" type="2008" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_bLmXEAe0EeildIBkRytfnA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_bLpaYAe0EeildIBkRytfnA" type="3013" fontName="Segoe UI">
+        <element xmi:type="datamapper:OperatorLeftContainer" href="FoodMapping.datamapper#//@operators.3/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bLpaYQe0EeildIBkRytfnA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_bLqBcAe0EeildIBkRytfnA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_bMFfQAe0EeildIBkRytfnA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_bMGGUAe0EeildIBkRytfnA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@operators.3/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bMGGUQe0EeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="FoodMapping.datamapper#//@operators.3/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bMFfQQe0EeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="FoodMapping.datamapper#//@operators.3/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bLqBcQe0EeildIBkRytfnA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="FoodMapping.datamapper#//@operators.3/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bLmXEQe0EeildIBkRytfnA"/>
+    </children>
+    <element xmi:type="datamapper:Constant" href="FoodMapping.datamapper#//@operators.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bLlI8Qe0EeildIBkRytfnA" x="240" y="624"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_kdLQIAe0EeildIBkRytfnA" type="2012" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_kdRWwAe0EeildIBkRytfnA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_kdYEcAe0EeildIBkRytfnA" type="3013" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_kdsNgAe0EeildIBkRytfnA" type="3014" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_kds0kAe0EeildIBkRytfnA" type="3015" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@operators.4/@basicContainer/@leftContainer/@leftConnectors.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kds0kQe0EeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorLeftConnector" href="FoodMapping.datamapper#//@operators.4/@basicContainer/@leftContainer/@leftConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdsNgQe0EeildIBkRytfnA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_kdwe8Ae0EeildIBkRytfnA" type="3014" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_kdxGAAe0EeildIBkRytfnA" type="3015" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@operators.4/@basicContainer/@leftContainer/@leftConnectors.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdxGAQe0EeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorLeftConnector" href="FoodMapping.datamapper#//@operators.4/@basicContainer/@leftContainer/@leftConnectors.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdwe8Qe0EeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorLeftContainer" href="FoodMapping.datamapper#//@operators.4/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdYEcQe0EeildIBkRytfnA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kdYrgAe0EeildIBkRytfnA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_kd1XcAe0EeildIBkRytfnA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_kd1-gAe0EeildIBkRytfnA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@operators.4/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kd1-gQe0EeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="FoodMapping.datamapper#//@operators.4/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kd1XcQe0EeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="FoodMapping.datamapper#//@operators.4/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdYrgQe0EeildIBkRytfnA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="FoodMapping.datamapper#//@operators.4/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdRWwQe0EeildIBkRytfnA"/>
+    </children>
+    <element xmi:type="datamapper:Add" href="FoodMapping.datamapper#//@operators.4"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdLQIQe0EeildIBkRytfnA" x="648" y="528"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_uXWaQAe0EeildIBkRytfnA" type="2018" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_uXdH8Ae0EeildIBkRytfnA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_uXe9IAe0EeildIBkRytfnA" type="3013" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_uXzGMAe0EeildIBkRytfnA" type="3014" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_uXztQAe0EeildIBkRytfnA" type="3015" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="FoodMapping.datamapper#//@operators.5/@basicContainer/@leftContainer/@leftConnectors.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uXztQQe0EeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorLeftConnector" href="FoodMapping.datamapper#//@operators.5/@basicContainer/@leftContainer/@leftConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uXzGMQe0EeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorLeftContainer" href="FoodMapping.datamapper#//@operators.5/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uXe9IQe0EeildIBkRytfnA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uXfkMAe0EeildIBkRytfnA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_uX2JgAe0EeildIBkRytfnA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_uX2wkAe0EeildIBkRytfnA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="FoodMapping.datamapper#//@operators.5/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uX2wkQe0EeildIBkRytfnA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="FoodMapping.datamapper#//@operators.5/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uX2JgQe0EeildIBkRytfnA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="FoodMapping.datamapper#//@operators.5/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uXfkMQe0EeildIBkRytfnA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="FoodMapping.datamapper#//@operators.5/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uXdH8Qe0EeildIBkRytfnA"/>
+    </children>
+    <element xmi:type="datamapper:Round" href="FoodMapping.datamapper#//@operators.5"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uXWaQQe0EeildIBkRytfnA" x="970" y="545"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_PPrfAQexEeildIBkRytfnA"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="FoodMapping.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_tcM2EAezEeildIBkRytfnA" type="4001" source="_sV2HcAeyEeildIBkRytfnA" target="_l9heAAezEeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_tcNdIAezEeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tcNdIQezEeildIBkRytfnA" points="[-1, 0, -67, 57]$[65, -57, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tcUx4AezEeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tcUx4QezEeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_04C8kAezEeildIBkRytfnA" type="4001" source="_l9qn8AezEeildIBkRytfnA" target="_ACl-4AezEeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_04C8kQezEeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_04C8kgezEeildIBkRytfnA" points="[-1, 0, -337, -153]$[335, 153, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_04MGgAezEeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_04MGgQezEeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_4wGzQAezEeildIBkRytfnA" type="4001" source="_fIwloAezEeildIBkRytfnA" target="_fJF80AezEeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_4wGzQQezEeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4wGzQgezEeildIBkRytfnA" points="[-1, 0, -631, -24]$[629, 24, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4wIocAezEeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4wIocQezEeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_8jXpgAezEeildIBkRytfnA" type="4001" source="_fI03EgezEeildIBkRytfnA" target="_fJWbgAezEeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_8jXpgQezEeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8jXpggezEeildIBkRytfnA" points="[-1, 0, -631, -70]$[629, 70, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8jas0AezEeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8jas0QezEeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KHShgAe0EeildIBkRytfnA" type="4001" source="_fI5IggezEeildIBkRytfnA" target="_JDvZ0Ae0EeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_KHShgQe0EeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KHShgge0EeildIBkRytfnA" points="[-1, 0, -166, -73]$[164, 73, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KHYoIAe0EeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KHYoIQe0EeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_gxQYAAe0EeildIBkRytfnA" type="4001" source="_a0TRYAe0EeildIBkRytfnA" target="_JDzEMAe0EeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_gxQYAQe0EeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@operators.2/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gxQYAge0EeildIBkRytfnA" points="[-1, 0, -116, 18]$[114, -18, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gxYT0Ae0EeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gxYT0Qe0EeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_oLkNcAe0EeildIBkRytfnA" type="4001" source="_JD5K0Ae0EeildIBkRytfnA" target="_kds0kAe0EeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_oLkNcQe0EeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oLkNcge0EeildIBkRytfnA" points="[-1, 0, -81, -110]$[79, 110, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oLpF8Ae0EeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oLpF8Qe0EeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pykngAe0EeildIBkRytfnA" type="4001" source="_bMGGUAe0EeildIBkRytfnA" target="_kdxGAAe0EeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_pykngQe0EeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@operators.3/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pykngge0EeildIBkRytfnA" points="[-1, 0, -113, 98]$[111, -98, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pyw0wAe0EeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pyw0wQe0EeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_vRcD8Ae0EeildIBkRytfnA" type="4001" source="_kd1-gAe0EeildIBkRytfnA" target="_uXztQAe0EeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_vRcD8Qe0EeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@operators.4/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vRcD8ge0EeildIBkRytfnA" points="[-1, 0, -139, -17]$[137, 17, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vRg8cAe0EeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vRg8cQe0EeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xK6HAAe0EeildIBkRytfnA" type="4001" source="_uX2wkAe0EeildIBkRytfnA" target="_fJKOQAezEeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_xK6HAQe0EeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@operators.5/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xK6HAge0EeildIBkRytfnA" points="[-1, 0, 217, 264]$[-219, -264, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xK9KUAe0EeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xK9KUQe0EeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_08wA8Ae0EeildIBkRytfnA" type="4001" source="_fJBrYAezEeildIBkRytfnA" target="_fJSxIAezEeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_08wA8Qe0EeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.5/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_08wA8ge0EeildIBkRytfnA" points="[-1, 0, -895, 27]$[893, -27, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_08zEQAe0EeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_08zEQQe0EeildIBkRytfnA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1lSAkAe0EeildIBkRytfnA" type="4001" source="_fI9Z8gezEeildIBkRytfnA" target="_fJPGwAezEeildIBkRytfnA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_1lSAkQe0EeildIBkRytfnA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="FoodMapping.datamapper#//@input/@treeNode.0/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1lSAkge0EeildIBkRytfnA" points="[-1, 0, -895, 27]$[893, -27, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1lUc0Ae0EeildIBkRytfnA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1lUc0Qe0EeildIBkRytfnA" id="CENTER"/>
+  </edges>
+</notation:Diagram>

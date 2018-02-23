@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/services/users" name="ListUsersAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" url-mapping="/*">
+        <inSequence>
+            <payloadFactory media-type="json">
+                <format>{     "persons":{        "person":[           {              "Id":"1",            "givenName":"ajith",            "lastName":"vitharana",            "age":"25",            "contactInfos":[                 {                    "InfoId":"1",                  "department":"1",                  "contactType":"email",                  "value":"ajith@abc.org"               },               {                    "InfoId":"2",                  "department":"1",                  "contactType":"mobile",                  "value":"111111111"               },               {                    "InfoId":"3",                  "department":"1",                  "contactType":"home",                  "value":"Magic Dr,USA"               }            ]         },         {              "Id":"2",            "givenName":"shammi",            "lastName":"jagasingha",            "age":"30",            "contactInfos":[                 {                    "InfoId":"1",                  "department":"1",                  "contactType":"email",                  "value":"shammi@abc.org"               },               {                  "InfoId":"2",                  "department":"1",                  "contactType":"mobile",                  "value":"2222222222"               },               {                    "InfoId":"3",                  "department":"1",                  "contactType":"home",                  "value":"Magic Dr,USA"               }            ]         }      ]   }}</format>
+                <args/>
+            </payloadFactory>
+            <property action="remove" name="NO_ENTITY_BODY" scope="axis2"/>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

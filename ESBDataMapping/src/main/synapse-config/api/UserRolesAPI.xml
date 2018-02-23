@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/services/roles/1" name="UserRolesAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/{personid}">
+        <inSequence>
+            <filter regex="1" source="get-property('uri.var.personid')">
+                <then>
+                    <payloadFactory media-type="json">
+                        <format>{     "Id":1,   "roles":[        {           "roleId":1,         "personKey":1,         "role":"Deverloper"      },      {           "roleId":2,         "personKey":1,         "role":"Engineer"      }   ]}</format>
+                        <args/>
+                    </payloadFactory>
+                    <property action="remove" name="NO_ENTITY_BODY" scope="axis2"/>
+                    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+                    <respond/>
+                </then>
+                <else/>
+            </filter>
+            <filter regex="2" source="get-property('uri.var.personid')">
+                <then>
+                    <payloadFactory media-type="json">
+                        <format>{"personId": 2,"roles": [{ "personRoleId": 1, "personKey": 2, "role": "Manager" },{ "personRoleId": 2, "personKey": 2, "role": "QA" }]}</format>
+                        <args/>
+                    </payloadFactory>
+                    <property action="remove" name="NO_ENTITY_BODY" scope="axis2"/>
+                    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+                    <respond/>
+                </then>
+                <else/>
+            </filter>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

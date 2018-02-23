@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/userdetails" name="UserDetailsAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <call>
+                <endpoint>
+                    <http method="get" uri-template="http://localhost:8280/services/users"/>
+                </endpoint>
+            </call>
+            <iterate attachPath="//jsonObject/persons" expression="//jsonObject/persons/person" id="it1" preservePayload="true" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+                <target>
+                    <sequence>
+                        <property expression="$body/jsonObject/persons/person/Id" name="uri.var.Id" scope="default" type="STRING" xmlns:ns="http://org.apache.synapse/xsd"/>
+                        <property expression="$body//jsonObject//person" name="response1" scope="default" type="STRING" xmlns:ns="http://org.apache.synapse/xsd"/>
+                        <call>
+                            <endpoint>
+                                <http method="get" uri-template="http://localhost:8281/services/roles/{uri.var.Id}"/>
+                            </endpoint>
+                        </call>
+                        <payloadFactory media-type="xml">
+                            <format>
+                                <combined xmlns="">                        $1$2                        </combined>
+                            </format>
+                            <args>
+                                <arg evaluator="xml" expression="get-property('response1')" xmlns:ns="http://org.apache.synapse/xsd"/>
+                                <arg evaluator="xml" expression="$body//jsonObject/roles" xmlns:ns="http://org.apache.synapse/xsd"/>
+                            </args>
+                        </payloadFactory>
+                        <loopback/>
+                    </sequence>
+                </target>
+            </iterate>
+        </inSequence>
+        <outSequence>
+            <property name="ECNCLOSING_ELEMENT" scope="default">
+                <wrapper xmlns=""/>
+            </property>
+            <aggregate id="it1">
+                <completeCondition>
+                    <messageCount max="-1" min="2"/>
+                </completeCondition>
+                <onComplete enclosingElementProperty="ECNCLOSING_ELEMENT" expression="//combined" xmlns:s11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:s12="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+                    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+                    <send/>
+                </onComplete>
+            </aggregate>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="sendMailSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="custom">
+        <property name="sequence" value="sendMailSequence"/>
+    </log>
+    <property name="messageType" scope="axis2" type="STRING" value="text/html"/>
+    <property name="ContentType" scope="axis2" type="STRING" value="text/html"/>
+    <property name="Subject" scope="transport" type="STRING" value="File Received"/>
+    <property name="OUT_ONLY" scope="default" type="STRING" value="true"/>
+    <send>
+        <endpoint name="FileEpr">
+            <address uri="mailto:upahara.java@gmail.com"/>
+        </endpoint>
+    </send>
+</sequence>
